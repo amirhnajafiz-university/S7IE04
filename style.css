@@ -1,4 +1,11 @@
-/* Reset CSS */
+/* variables */
+:root {
+    --primary-color: #f00;
+    --secondary-color: #0f0;
+    --tertiary-color: #00f;
+}
+
+/* reset CSS */
 * {
     margin: 0;
     padding: 0;
