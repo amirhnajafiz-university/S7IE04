@@ -31,3 +31,8 @@ body{
 
     background-color: var(--row-background);
 }
+
+/* each row item is a box */
+.box {
+    background-color: rgb(99, 255, 47);
+}
