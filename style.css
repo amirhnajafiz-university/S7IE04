@@ -11,7 +11,7 @@
     --l-wrap-padding: 20px;
     --l-wrap-margin: 20px;
 
-    --grid-column-gap: 50px;
+    --grid-column-gap: 80px;
 }
 
 /* reset CSS */
@@ -149,4 +149,24 @@ body {
     to {
         max-width: 100%;
     }
+}
+
+/*
+    putting all of our lectures inside a box with a background
+    that is mate.
+*/
+.lectures {
+    background-image: linear-gradient(to bottom right, rgba(197, 34, 237, 0.6), rgba(29, 110, 181, 0.6), rgba(22, 161, 110, 0.6)), url("./assets/image/Background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding: 120px 100px;
+}
+
+.lecture {
+    background-color: aliceblue;
+    opacity: 0.8;
+
+    height: 400px;
 }
