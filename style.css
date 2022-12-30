@@ -57,6 +57,18 @@ body {
     float: left;
 }
 
+/*
+    whenever all children elements are floated in a container, 
+    the containers height collapses. 
+    this phenomenon is called the float collapse. 
+    to fix this, what we need is a clearfix.
+*/
+.four-col-grid:after, .three-col-grid:after, .two-col-grid:after {
+    display: table;
+    clear: both;
+    content: '';
+}
+
 /* each row item is a box */
 .box {
     background-color: rgb(99, 255, 47);
