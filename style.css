@@ -95,8 +95,8 @@ body {
     opacity: 0.8;
 
     padding-top: 150px;
-
     height: 600px;
+    margin-bottom: 100px;
 }
 
 .header-text {
@@ -162,6 +162,7 @@ body {
     background-repeat: no-repeat;
 
     padding: 120px 100px;
+    margin-bottom: 100px;
 }
 
 .lecture {
