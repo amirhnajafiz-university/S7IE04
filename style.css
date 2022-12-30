@@ -7,7 +7,7 @@
     /* l-wrap */
     --body-margin: 20px;
     --l-wrap-width: 95%;
-    --grid-gap: 10px;
+    --grid-column-gap: 50px;
 }
 
 /* reset CSS */
@@ -42,19 +42,26 @@ body {
     create grid classes and grid items inside them
     to hold items in a row.
 */
-.four-col-grid .grid-item {
-    width: calc(100% / 4);
+.grid-item {
+    /* need to recalculate width property */
+    margin-right: var(--grid-column-gap);
     float: left;
+}
+
+.grid-item:last-child {
+    margin-right: 0;
+}
+
+.four-col-grid .grid-item {
+    width: calc((100% - var(--grid-column-gap)*3) / 4);
 }
 
 .three-col-grid .grid-item {
-    width: calc(100% / 3);
-    float: left;
+    width: calc((100% - var(--grid-column-gap)*2) / 3);
 }
 
 .two-col-grid .grid-item {
-    width: calc(100% / 2);
-    float: left;
+    width: calc((100% - var(--grid-column-gap)) / 2);
 }
 
 /*
