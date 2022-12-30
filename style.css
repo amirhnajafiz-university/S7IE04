@@ -4,7 +4,8 @@
     --l-wrap-background: rgb(73, 143, 217);
 
     /* margin and paddings */
-    /* l-wrapp */
+    /* l-wrap */
+    --body-margin: 20px;
     --l-wrap-width: 95%;
 }
 
@@ -17,9 +18,15 @@
     font-size: 1rem;
 }
 
+/* body */
+body {
+    margin: var(--body-margin);
+}
+
 /* 
-    layout wrapp is a container that determines 
-    the maximum width of the grid.
+    layout wrap is a container that determines 
+    the maximum width of the grid. works as a big
+    wraper.
 */
 .l-wrap {
     max-width: var(--l-wrap-width);
