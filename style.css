@@ -187,3 +187,8 @@ body {
 
     margin-bottom: 20px;
 }
+
+.lecture-title {
+    font-weight: bold;
+    margin-bottom: 40px;
+}
