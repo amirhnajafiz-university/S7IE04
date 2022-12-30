@@ -79,3 +79,55 @@ body {
     clear: both;
     content: '';
 }
+
+/*
+    header component which has a background and
+    animated text on it, with a button to go to shoping section.
+*/
+.header {
+    color: #fff;
+    border: 10px solid #fff;
+
+    background-image: url('./assets/image/Header.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+
+    padding-top: 150px;
+
+    height: 600px;
+}
+
+.header-text {
+    width: auto;
+
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+
+    animation-name: slide-text;
+    animation-duration: 2s;
+
+    letter-spacing: 10px;
+}
+
+.big-title {
+    font-size: 3rem;
+    letter-spacing: 25px;
+    line-height: 80px;
+
+    margin-bottom: 20px;
+}
+
+/* 
+    the animation code for moving text from left to center.
+*/
+@keyframes slide-text {
+    from {
+        max-width: 0%;
+    }
+    to {
+        max-width: 100%;
+    }
+}
