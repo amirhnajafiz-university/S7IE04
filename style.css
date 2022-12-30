@@ -175,7 +175,7 @@ body {
 
     text-align: center;
 
-    height: 400px;
+    min-height: 400px;
 }
 
 .lecture-icon {
@@ -191,4 +191,11 @@ body {
 .lecture-title {
     font-weight: bold;
     margin-bottom: 40px;
+}
+
+.lecture-text {
+    padding: 0 25px;
+    line-height: 25px;
+
+    font-size: 0.9rem;
 }
