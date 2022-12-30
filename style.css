@@ -7,6 +7,8 @@
     /* l-wrap */
     --body-margin: 20px;
     --l-wrap-width: 95%;
+    --l-wrap-padding: 20px;
+    --l-wrap-margin: 20px;
     --grid-column-gap: 50px;
 }
 
@@ -31,9 +33,8 @@ body {
 */
 .l-wrap {
     max-width: var(--l-wrap-width);
-
-    margin-right: auto;
-    margin-left: auto;
+    margin: var(--l-wrap-margin) auto;
+    padding: var(--l-wrap-padding);
 
     background-color: var(--l-wrap-background);
 }
