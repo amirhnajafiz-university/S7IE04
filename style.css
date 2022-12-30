@@ -1,8 +1,13 @@
 /* variables */
 :root {
-    --primary-color: #f00;
-    --secondary-color: #0f0;
-    --tertiary-color: #00f;
+    /* colors and backgrounds */
+    --row-background: rgb(73, 143, 217);
+
+    /* margin and paddings */
+    /* rows */
+    --body-margin: 20px;
+    --rows-gap: 1rem;
+    --rows-padding: 10px;
 }
 
 /* reset CSS */
@@ -10,4 +15,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* body */
+body{
+    margin: var(--body-margin);
+    background-color: rgb(255, 255, 255);
+}
+
+/* row class for each of 4 rows */
+.row {
+    inline-size: 100%;
+    margin: var(--rows-gap) 0;
+    padding: var(--rows-padding);
+
+    background-color: var(--row-background);
 }
