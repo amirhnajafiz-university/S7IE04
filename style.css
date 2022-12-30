@@ -165,8 +165,13 @@ body {
 }
 
 .lecture {
-    background-color: aliceblue;
+    background-color: #fff;
+    color: rgb(159, 159, 159);
     opacity: 0.8;
+
+    border-radius: 3px;
+
+    text-align: center;
 
     height: 400px;
 }
