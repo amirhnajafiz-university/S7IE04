@@ -37,8 +37,6 @@ body {
     max-width: var(--l-wrap-width);
     margin: var(--l-wrap-margin) auto;
     padding: var(--l-wrap-padding);
-
-    background-color: var(--l-wrap-background);
 }
 
 /*
@@ -48,8 +46,6 @@ body {
 .grid-item {
     margin-right: var(--grid-column-gap);
     float: left;
-
-    background-color: rgb(99, 255, 47);
 }
 
 .grid-item:last-child {
@@ -208,4 +204,18 @@ body {
     line-height: 25px;
 
     font-size: 0.9rem;
+}
+
+/*
+    books row, the following classes are for books row.
+    each bock is a card that when you take mouse on it, it turns.
+*/
+.books-title {
+    text-align: center;
+    margin: 40px 0 80px;
+
+    font-size: 1.5rem;
+    background: -webkit-linear-gradient(rgb(32, 96, 151), rgb(110, 34, 191));;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
