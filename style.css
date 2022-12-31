@@ -358,7 +358,12 @@ body {
     the following classes are for the footer.
 */
 .footer {
+    margin-top: 40px;
     background-color: rgb(39, 39, 39);
     color: #fff;
     padding: 20px 0;
+}
+
+.footer-item {
+    text-align: center;
 }
