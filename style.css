@@ -229,6 +229,7 @@ body {
 
 .books {
     padding: 10px 100px;
+    margin-bottom: 80px;
 }
 
 .book {
@@ -351,4 +352,13 @@ body {
     padding: 10px;
     border-radius: 5px;
     outline: none;
+}
+
+/* 
+    the following classes are for the footer.
+*/
+.footer {
+    background-color: rgb(39, 39, 39);
+    color: #fff;
+    padding: 20px 0;
 }
