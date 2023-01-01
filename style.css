@@ -232,7 +232,7 @@ body {
     book is a card that holds the book image and the book title.
 */
 .book {
-    min-height: 400px;
+    min-height: 550px;
     border-radius: 3px;
     box-shadow: 0px 0px 10px rgba(177, 177, 177, 0.95);
     color: rgba(177, 177, 177, 0.95);
@@ -240,17 +240,17 @@ body {
 
 .book-image {
     position: relative;
-    height: 150px;
-    background-position: center;
+    height: 200px;
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 50px;
 }
 
 .book-image-title {
-    position:absolute;
-    bottom:0;
-    right:0;
+    position: absolute;
+    opacity: 0.8;
+    bottom: 0;
+    right: 20px;
 }
 
 .book-image-title-content {
@@ -318,7 +318,7 @@ body {
 .flip-card-inner {
     position: relative;
     width: 100%;
-    min-height: 400px;
+    min-height: 550px;
 
     transition: transform 0.6s;
     transform-style: preserve-3d;
@@ -331,7 +331,7 @@ body {
 .flip-card-front, .flip-card-back {
     position: absolute;
     width: 100%;
-    min-height: 400px;  
+    min-height: 550px;  
 
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
