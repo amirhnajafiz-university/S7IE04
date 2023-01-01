@@ -406,12 +406,17 @@ body {
     the following classes are for the footer.
 */
 .footer {
-    margin-top: 40px;
+    margin-top: 80px;
     background-color: rgb(39, 39, 39);
-    color: #fff;
-    padding: 20px 0;
+    color: rgba(191, 191, 191, 0.5);
+    padding: 100px 20px;
 }
 
 .footer-item {
+    border-top: 1px solid rgba(191, 191, 191, 0.5);
     text-align: center;
+
+    width: 50%;
+    padding-top: 10px;
+    margin: 0 auto;
 }
