@@ -1,29 +1,31 @@
-/* variables */
+/* 
+    variables.
+*/
 :root {
     /* colors and backgrounds */
     --l-wrap-background: rgb(73, 143, 217);
-
     /* margin and paddings */
     /* l-wrap */
     --body-margin: 20px;
-
     --l-wrap-width: 95%;
     --l-wrap-padding: 20px;
     --l-wrap-margin: 20px;
-
     --grid-column-gap: 80px;
 }
 
-/* reset CSS */
+/* 
+    reset CSS.
+*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
     font-size: 1rem;
 }
 
-/* body */
+/* 
+    body.
+*/
 body {
     margin: var(--body-margin);
 }
@@ -40,18 +42,25 @@ body {
 }
 
 /*
-    create grid classes and grid items inside them
-    to hold items in a row.
+    grid is a container that holds all of the grid items.
+    it has a default 4 columns, but it can be changed to 3 or 2.
+    it has a default column gap of 80px, but it can be changed.
 */
 .grid-item {
     margin-right: var(--grid-column-gap);
     float: left;
 }
 
+/*
+    the last child of the grid item has no margin right.
+*/
 .grid-item:last-child {
     margin-right: 0;
 }
 
+/*
+    grid classes for 2, 3, and 4 columns.
+*/
 .four-col-grid .grid-item {
     width: calc((100% - var(--grid-column-gap)*3) / 4);
 }
@@ -95,6 +104,9 @@ body {
     margin-bottom: 100px;
 }
 
+/*
+    the header text is a container that holds the animated text.
+*/
 .header-text {
     width: auto;
 
@@ -161,6 +173,9 @@ body {
     margin-bottom: 100px;
 }
 
+/*
+    lectures title is a container that holds the title of the lectures.
+*/
 .lecture {
     position: relative;
     top: 0;
@@ -227,11 +242,17 @@ body {
     background-color: rgb(248, 248, 248);
 }
 
+/*
+    books row is a container that holds all books.
+*/
 .books {
     padding: 10px 100px;
     margin-bottom: 80px;
 }
 
+/*
+    book is a card that holds the book image and the book title.
+*/
 .book {
     min-height: 400px;
     border-radius: 3px;
@@ -263,6 +284,9 @@ body {
     padding: 5px 10px;
 }
 
+/*
+    the following classes are for each book.
+*/
 #js-book {
     box-shadow: inset 0 0 0 1000px rgba(78, 246, 145, 0.8);
     background-image: url('./assets/image/Book1-2.png');
@@ -311,6 +335,9 @@ body {
     background-color: transparent;
 }
   
+/* 
+    this container is needed to position the front and back side.
+*/
 .flip-card-inner {
     position: relative;
     width: 100%;
@@ -343,6 +370,9 @@ body {
     text-align: center;
 }
 
+/*
+    the following classes are for the book back card.
+*/
 .book-price {
     margin: 100px 0 50px;
     font-weight: bold;
@@ -422,6 +452,9 @@ body {
     margin: 0 auto;
 }
 
+/*
+    the following classes are for the footer wrapper.
+*/
 .footer-wraper {
     display: flex;
     justify-content: space-between;
