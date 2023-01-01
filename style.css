@@ -452,6 +452,19 @@ body {
     color: #888;
 }
 
+.buy-btn {
+    padding: 20px 10px;
+    color: #fff;
+    background-color: rgba(14, 86, 255, 0.854);
+    border-radius: 75px;
+    border: 0 solid black;
+    width: 150px;
+}
+
+.buy-btn:hover {
+    background-color: rgba(14, 86, 255, 1);
+}
+
 /* 
     the following classes are for the footer.
 */
