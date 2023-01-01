@@ -89,6 +89,7 @@ body {
 .header {
     color: #fff;
     border: 10px solid #fff;
+    box-shadow: inset 0 0 0 1000px rgba(53, 194, 255, 0.6);
     background-image: url('./assets/image/Header.jpg');
     background-position: center;
     background-size: cover;
@@ -123,7 +124,7 @@ body {
     width: 300px;
     margin: 60px auto 0;
     padding: 15px 20px;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     background-color: #fff;
     color: rgb(180, 180, 180);
     border-radius: 30px;
@@ -264,17 +265,17 @@ body {
     the following classes are for each book.
 */
 #js-book {
-    box-shadow: inset 0 0 0 1000px rgba(78, 246, 145, 0.8);
+    box-shadow: inset 0 0 0 1000px rgba(78, 246, 112, 0.7);
     background-image: url('./assets/image/Book1-2.png');
 }
 
 .js-book-title {
-    background-color: green;
+    background-color: rgb(63, 195, 127);
     color: #fff;
 }
 
 #react-book{
-    box-shadow: inset 0 0 0 1000px rgba(42, 82, 119, 0.5);
+    box-shadow: inset 0 0 0 1000px rgba(44, 147, 243, 0.5);
     background-image: url('./assets/image/Book2-2.jpg');
 }
 
