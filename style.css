@@ -407,7 +407,12 @@ body {
 }
 
 .overlay-text {
+    text-align: justify;
     padding: 20px;
+}
+
+.small-text {
+    font-size: 0.8rem !important;
 }
 
 .overlay-close {
