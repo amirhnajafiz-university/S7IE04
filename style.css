@@ -241,6 +241,8 @@ body {
 .book-image {
     position: relative;
     height: 200px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 50px;
@@ -321,6 +323,8 @@ body {
     width: 100%;
     min-height: 550px;
 
+    border-radius: 3px;
+
     transition: transform 0.6s;
     transform-style: preserve-3d;
 }
@@ -343,6 +347,7 @@ body {
 }
   
 .flip-card-back {
+    border-radius: 3px;
     color: #fff;
     background-color: rgba(155, 155, 155, 0.7);
     transform: rotateY(180deg);
