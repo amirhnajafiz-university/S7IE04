@@ -557,6 +557,8 @@ body {
     text-decoration: none;
     color: #fff;
     margin-bottom: 40px;
+    background-color: inherit;
+    border: 0 solid black;
 }
 
 .menu-item:hover {

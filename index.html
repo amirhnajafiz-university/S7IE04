@@ -18,7 +18,7 @@
    </head> 
    <body> 
     <!-- Header -->
-    <div class="l-wrap header">
+    <div id="main-header" class="l-wrap header">
       <div class="header-text big-title">
         INTERNET <br /> ENGINEERING
       </div>
@@ -45,15 +45,15 @@
     </button>
     <div id="menu" class="menu">
       <div class="menu-wraper">
-        <a href="#" class="menu-item">
+        <button class="menu-item" onclick="jumpTo('main-header')">
           01 START
-        </a>
-        <a href="#" class="menu-item">
+        </button>
+        <button class="menu-item" onclick="jumpTo('lecture-row')">
           02 COURSE LECTURES
-        </a>
-        <a href="#" class="menu-item">
+        </button>
+        <button class="menu-item" onclick="jumpTo('book-row')">
           03 RELATED BOOKS
-        </a>
+        </button>
       </div>
     </div>
 
@@ -153,7 +153,7 @@
     </div>
 
     <!-- row 1 (lectures) -->
-    <div class="l-wrap lectures">
+    <div id="lecture-row" class="l-wrap lectures">
       <div class="four-col-grid">
         <div class="box grid-item lecture">
           <img class="lecture-icon" src="./assets/image/http_icon.png" />
@@ -365,6 +365,12 @@
       // close popup book
       function closePopup(id) {
         document.getElementById(id).style.display = "none";
+      }
+
+      // scroll to view
+      function jumpTo(id) {
+        toogleMenuDisplay();
+        document.getElementById(id).scrollIntoView();
       }
     </script>
    </body> 
