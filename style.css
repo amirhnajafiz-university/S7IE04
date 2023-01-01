@@ -21,6 +21,7 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* 
@@ -180,7 +181,7 @@ body {
     position: relative;
     top: 0;
 
-    padding: 20px 0;
+    padding: 20px 0 0;
 
     background-color: #fff;
     color: rgb(159, 159, 159);
@@ -190,7 +191,7 @@ body {
 
     text-align: center;
 
-    min-height: 400px;
+    min-height: 500px;
 
     transition: 0.5s all;
 }
