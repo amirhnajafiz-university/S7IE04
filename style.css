@@ -449,6 +449,7 @@ body {
 }
 
 .menu {
+    display: none;
     background-image: linear-gradient(to right, rgb(0, 73, 128), rgb(87, 0, 128));
     color: #fff;
 

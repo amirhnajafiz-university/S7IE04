@@ -28,10 +28,10 @@
     </div>
 
     <!-- menu -->
-    <button class="menu-btn">
+    <button class="menu-btn" onclick="toogleMenuDisplay()">
       Menu
     </button>
-    <div class="menu">
+    <div id="menu" class="menu">
       <div class="menu-wraper">
         <a href="#" class="menu-item">
           01 START
@@ -322,6 +322,16 @@
 
     <!-- JavaScript -->
     <script>
+      // menu open/close
+      function toogleMenuDisplay() {
+        var menu = document.getElementById("menu");
+        if (menu.style.display === "block") {
+          menu.style.display = "none";
+        } else {
+          menu.style.display = "block";
+        }
+      }
+
       // popup book
       function openPopup(id) {
         document.getElementById(id).style.display = "block";
