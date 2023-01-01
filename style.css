@@ -408,12 +408,13 @@ body {
 }
 
 .overlay-text {
-    text-align: justify;
-    padding: 20px;
+    padding: 20px 30px;
 }
 
 .small-text {
-    font-size: 0.8rem !important;
+    color: #888;
+    font-size: 0.7rem !important;
+    line-height: 20px;
 }
 
 .overlay-close {
@@ -421,6 +422,34 @@ body {
     top:10px;
     right:10px;
     cursor:pointer;
+}
+
+.overlay-text-title {
+    margin: 20px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 5px;
+    background: -webkit-linear-gradient(rgb(106, 162, 211), rgb(50, 85, 224));;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.l-wrap-holder {
+    margin: 30px 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 10px;
+}
+
+.left-small {
+    border-right: 1px solid rgb(202, 202, 202);
+    padding-right: 10px;
+}
+
+.overlay-text-warning {
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: #888;
 }
 
 /* 
