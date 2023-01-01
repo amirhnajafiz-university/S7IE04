@@ -12,3 +12,7 @@ Building a **Course Website** template with pure **HTML**, **CSS**, and **JavaSc
 Execute the website by clicking on ```index.html```.
 
 ## Demo
+
+<p align="center">
+  <img src="./assets/image/demo.png" alt="demo" />
+</p>
