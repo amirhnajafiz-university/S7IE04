@@ -2,10 +2,7 @@
     variables.
 */
 :root {
-    /* colors and backgrounds */
-    --l-wrap-background: rgb(73, 143, 217);
     /* margin and paddings */
-    /* l-wrap */
     --body-margin: 20px;
     --l-wrap-width: 95%;
     --l-wrap-padding: 20px;
@@ -37,7 +34,6 @@ body {
     wraper.
 */
 .l-wrap {
-    max-width: var(--l-wrap-width);
     margin: var(--l-wrap-margin) auto;
     padding: var(--l-wrap-padding);
 }
@@ -93,13 +89,10 @@ body {
 .header {
     color: #fff;
     border: 10px solid #fff;
-
     background-image: url('./assets/image/Header.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.8;
-
     padding-top: 150px;
     height: 600px;
     margin-bottom: 100px;
@@ -110,14 +103,11 @@ body {
 */
 .header-text {
     width: auto;
-
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
-
     animation-name: slide-text;
     animation-duration: 2s;
-
     letter-spacing: 10px;
 }
 
@@ -125,7 +115,6 @@ body {
     font-size: 3rem;
     letter-spacing: 25px;
     line-height: 80px;
-
     margin-bottom: 20px;
 }
 
@@ -134,12 +123,10 @@ body {
     width: 300px;
     margin: 60px auto 0;
     padding: 15px 20px;
-
     font-size: 0.9rem;
     background-color: #fff;
     color: rgb(180, 180, 180);
     border-radius: 30px;
-
     text-align: center;
     text-decoration: none;
 }
@@ -169,7 +156,6 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
     padding: 120px 100px;
     margin-bottom: 100px;
 }
@@ -180,19 +166,13 @@ body {
 .lecture {
     position: relative;
     top: 0;
-
     padding: 20px 0 0;
-
     background-color: #fff;
     color: rgb(159, 159, 159);
     opacity: 0.8;
-
     border-radius: 3px;
-
     text-align: center;
-
     min-height: 500px;
-
     transition: 0.5s all;
 }
 
@@ -203,10 +183,8 @@ body {
 .lecture-icon {
     width: 50%;
     height: 100px;
-
     color: rgb(219, 219, 219) !important;
     opacity: 0.4;
-
     margin-bottom: 20px;
 }
 
@@ -218,7 +196,6 @@ body {
 .lecture-text {
     padding: 0 25px;
     line-height: 25px;
-
     font-size: 0.9rem;
 }
 
@@ -229,9 +206,8 @@ body {
 .books-title {
     text-align: center;
     margin: 40px 0 80px;
-
-    font-size: 1.5rem;
-    background: -webkit-linear-gradient(rgb(32, 96, 151), rgb(110, 34, 191));;
+    font-size: 1.7rem;
+    background: -webkit-linear-gradient(rgb(106, 162, 211), rgb(78, 18, 142));;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -258,17 +234,15 @@ body {
     min-height: 400px;
     border-radius: 3px;
     box-shadow: 0px 0px 10px rgba(177, 177, 177, 0.95);
+    color: rgba(177, 177, 177, 0.95);
 }
 
 .book-image {
     position: relative;
-
     height: 150px;
-
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
     margin-bottom: 50px;
 }
 
@@ -279,10 +253,11 @@ body {
 }
 
 .book-image-title-content {
+    font-size: 1.5rem;
     display: inline-block;
     clear: both;
     float: right;
-    padding: 5px 10px;
+    padding: 10px 20px;
 }
 
 /*
