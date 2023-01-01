@@ -434,6 +434,10 @@ body {
     color: rgba(237, 237, 237, 0.8);
 }
 
+.footer-wraper a:hover {
+    color: rgba(237, 237, 237, 1);
+}
+
 /*
     the following classes are for the menu component.
 */
