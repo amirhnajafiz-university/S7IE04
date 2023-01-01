@@ -342,7 +342,8 @@ body {
 }
   
 .flip-card-back {
-    background-color: rgb(155, 155, 155);
+    color: #fff;
+    background-color: rgba(155, 155, 155, 0.7);
     transform: rotateY(180deg);
     text-align: center;
 }
@@ -351,14 +352,21 @@ body {
     the following classes are for the book back card.
 */
 .book-price {
+    font-size: 1.3rem;
     margin: 100px 0 50px;
     font-weight: bold;
 }
 
 .book-shop-btn {
+    font-size: 1.3rem;
     padding: 10px;
     border-radius: 5px;
     outline: none;
+    border: 0 solid black;
+}
+
+.book-shop-btn:hover {
+    box-shadow: 0px 0px 10px rgba(55, 55, 55, 0.95);
 }
 
 /*
