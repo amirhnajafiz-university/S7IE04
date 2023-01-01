@@ -390,6 +390,10 @@ body {
     width: 100%;
 }
 
+.overlay-text {
+    padding: 20px;
+}
+
 .overlay-close {
     position:absolute;
     top:10px;
