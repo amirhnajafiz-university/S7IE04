@@ -1,5 +1,5 @@
 <h1 align="center">
-  Courses
+  IE Courses
 </h1>
 
 <br />
