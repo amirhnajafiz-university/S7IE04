@@ -1,11 +1,12 @@
 <h1 align="center">
-  IE Courses
+  S7IE04
 </h1>
 
 <br />
 
 Second final project of Internet Engineering Course.
 Building a **Course Website** template with pure **HTML**, **CSS**, and **JavaScript**.
+Visit project [link](https://ceit-aut.github.io/S7IE04/).
 
 ## Run
 
